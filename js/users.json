@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Victor Crest",
+        "age": 26,
+        "city": "London",
+        "followers": 80000,
+        "likes": 803000,
+        "photos": 1400,
+        "picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "age": 30,
+        "city": "New York",
+        "followers": 95000,
+        "likes": 1200000,
+        "photos": 2000,
+        "picture": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "John Smith",
+        "age": 22,
+        "city": "San Francisco",
+        "followers": 45000,
+        "likes": 500000,
+        "photos": 800,
+        "picture": "https://randomuser.me/api/portraits/men/3.jpg"
+    }
+]

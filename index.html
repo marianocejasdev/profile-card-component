@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Profile Card Component</title>
+  <meta name="description" content="This is my solution to the 'Profile Card Component' challenge on Frontend Mentor.">
+  <meta name="author" content="Mariano Cejas - Frontend Developer">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="./assets/images/placeholder.jpg" as="image">
 </head>
-<body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+<body class="container">
 
-  803K
-  Likes
+  <article class="profile-card">
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="profile-card__bg"></div>
+
+    <img width="96" height="96" class="profile-card__image" src="./assets/images/placeholder.jpg" data-src=""
+      alt="Profile Picture" loading="lazy" style="display: none;">
+
+    <div class="content">
+
+      <div class="profile-card__info">
+        <div class="profile-card__details">
+          <h1 class="profile-card__name">Victor Crest</h1>
+          <p class="profile-card__age">26</p>
+        </div>
+        <p class="profile-card__city">London</p>
+      </div>
+
+      <div class="profile-card__stats">
+        <div class="profile-card__stat">
+          <span class="profile-card__stat-value" data-stat="followers">80K</span>
+          <span class="profile-card__stat-label">Followers</span>
+        </div>
+        <div class="profile-card__stat">
+          <span class="profile-card__stat-value" data-stat="likes">803K</span>
+          <span class="profile-card__stat-label">Likes</span>
+        </div>
+        <div class="profile-card__stat">
+          <span class="profile-card__stat-value" data-stat="photos">1.4K</span>
+          <span class="profile-card__stat-label">Photos</span>
+        </div>
+      </div>
+
+    </div>
+
+  </article>
+
+  <script src="./script.js" defer></script>
 </body>
+
 </html>
